@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial,sans-serif;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #210ec99f;
+}
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin-left: 20px;
+
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+nav ul li a:hover{
+    color: orange;
+
+}
+
+
+footer{
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    color: #fff;
+}
+.hero{
+    text-align: center;
+    padding: 70px 20px;
+    background: linear-gradient(to right, #ff9800, #ff5722);
+    color: white;
+}
+.hero h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.hero p{
+    font-size: 10px;
+    margin-bottom: 20px;
+
+}
+.hero button{
+    padding: 12px 30px;
+    font-size: 16px;
+    background: white;
+    color: #ff5722;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.hero button:hover{
+    background: #bbadad;
+    color: rgb(3, 1, 7);
+}
+.products {
+    padding: 40px;
+    text-align: center;
+    
+}
+.products h2{
+    margin-bottom: 30px;
+    font-size: 28px;
+
+}
+.product-list{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+
+}
+.product-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 220px;
+    border-radius: 8px;
+}
+.product-card img{
+    width: 100%;
+    border-radius: 5px;
+
+}
+.product-card h3{
+    margin: 10px 0;
+
+}
+.product-card button{
+    padding: 8px 15px;
+    background: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.product-card button:hover{
+    background: darkorange;
+    color: #3928a6;
+}
+.cart{
+    padding: 30px;
+    text-align: center;
+}
+#cart-items p {
+    background: #f4f4f4;
+    margin: 10x auto;
+    padding: 10px;
+    width: 60%;
+    border-radius: 5px;
+}
+#total-price {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media (max-width: 768px){
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    .hero h1 {
+        font-size: 28px;
+    }
+    .product-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-card{
+        width: 90%;
+    }
+}

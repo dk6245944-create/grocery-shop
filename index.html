@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartShop | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Smart Shop</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index2.html">Shop</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">About</a></li>
+              
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+       <h1>Shop smart , Shop online</h1>
+       <p>best quality products at lowes prices</p>
+       <button>Shop Now</button>
+    </section>
+    <section class="products">
+        <h2>featured products</h2>
+        <div class="product-list">
+            <div class="product-card">
+                <img src="images/istockphoto-1503858430-612x612.jpg" alt="product">
+                <h3>product 1</h3>
+                <p>$50</p>
+                <button onclick="addtocart('product', 50)">add to cart</button>
+
+            </div>
+            <div class="product-card">
+                <img src="images/background.jpg.jpg" alt="product">
+                <h3>product 2</h3>
+                <p>$35</p>
+                <button onclick="addtocart('product',   35)">add to cart</button>
+
+            </div>
+            <div class="product-card">
+                <img src="images/2525525545.jpg" alt="product">
+                <h3>product 3</h3>
+                <p>$424</p>
+                <button onclick="addtocart('product', 424)">add to cart</button>
+
+            </div>
+            <div class="product-card">
+                <img src="images/WhatsApp Image 2025-10-29 at 16.32.03_21186c2b.jpg" alt="">
+                <h3>product 4</h3>
+                <p>$525</p>
+                <button onclick="addtocart('product', 525)"><strong>add to Cart</strong></button>
+
+            </div>
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+    <footer>
+        <p>@ 2025 SmartShop.all rights reserved.</p>
+    </footer>
+</body>
+</html>

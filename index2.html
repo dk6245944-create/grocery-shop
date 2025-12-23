@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartShop | Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">SmartShop</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index2.html">Shop</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="#">Login</a></li>
+                <li><input type="text" id="searchInput" placeholder="Search products...."
+                    onkeyup="searchProduct"></li>
+            </ul>
+        </nav>
+        <input type="text" id="searchInput" placeholder="Search products...."
+                    onkeyup="searchProduct">
+    </header>
+    <section class="products">
+        <h2>All products</h2>
+        <div class="product-list">
+            <div class="product-card">
+                <img src="images/2525525545.jpg" alt="product">
+                <h3>T-Shirt</h3>
+                <p>₹49</p>
+                <button onclick="addToCart('T-Shirt',49)">add to Cart</button>
+
+            </div>
+            <div class="product-card">
+                <img src="" alt="product">
+                <h3>MOBILE</h3>
+                <p>$499</p>
+                <button onclick="addToCart('product',499)">add to Cart</button>
+
+            </div>
+            <div class="product-card">
+                <img src="" alt="product">
+                <h3>CAMERA</h3>
+                <p>$499</p>
+                <button>add to Cart</button>
+
+            </div>
+            <div class="product-card">
+                <img src="" alt="product">
+                <h3>TELI PHONE</h3>
+                <p>$499</p>
+                <button onclick="addtocart('product',52)">add to Cart</button>
+
+            </div>
+            <div class="product-card">
+                <img src="" alt="product">
+                <h3>WATCH</h3>
+                <p>$499</p>
+                <button onclick="addtocart('product',14)">add to Cart</button>
+
+            </div>
+            <div class="product-card">
+                <img src="" alt="product">
+                <h3>MOUSE</h3>
+                <p>$499</p>
+                <button onclick="addtocart('product',46)">add to Cart</button>
+
+            </div>
+
+        </div>
+
+        
+    </section>
+     <script src="script.js"></script>
+    <FOoter>
+        <p>@ 2025 SmartShop. All rights reserved.</p>
+    </FOoter>
+    
+</body>
+</html>
